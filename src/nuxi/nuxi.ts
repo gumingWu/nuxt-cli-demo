@@ -1,1 +1,3 @@
-export const b = 1
+#!/usr/bin/env node
+
+console.log('nuxt')

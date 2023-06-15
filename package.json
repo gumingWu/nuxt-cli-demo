@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/gumingWu/nuxt-cli-demo.git"
   },
+  "bin": {
+    "wnuxi": "./dist/nuxi.mjs",
+    "cac": "./dist/cac.mjs"
+  },
   "bugs": "https://github.com/gumingWu/nuxt-cli-demo/issues",
   "keywords": [],
   "sideEffects": false,

@@ -1,1 +1,3 @@
-export const a = 1
+#!/usr/bin/env node
+
+console.log('cac')
