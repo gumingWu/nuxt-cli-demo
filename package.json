@@ -1,17 +1,17 @@
 {
-  "name": "pkg-name",
+  "name": "nuxt-cli-demo",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.30.0",
   "description": "",
   "author": "gumingWu",
   "license": "MIT",
-  "homepage": "https://github.com/gumingWu/pkg-name#readme",
+  "homepage": "https://github.com/gumingWu/nuxt-cli-demo#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gumingWu/pkg-name.git"
+    "url": "git+https://github.com/gumingWu/nuxt-cli-demo.git"
   },
-  "bugs": "https://github.com/gumingWu/pkg-name/issues",
+  "bugs": "https://github.com/gumingWu/nuxt-cli-demo/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
