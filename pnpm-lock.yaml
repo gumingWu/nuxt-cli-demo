@@ -9,6 +9,7 @@ importers:
       '@antfu/utils': ^0.7.2
       '@types/node': ^18.15.5
       bumpp: ^9.0.0
+      cac: ^6.7.14
       eslint: ^8.36.0
       esno: ^0.16.3
       lint-staged: ^13.2.0
@@ -18,6 +19,8 @@ importers:
       typescript: ^5.0.2
       unbuild: ^1.1.2
       vite: ^4.2.1
+    dependencies:
+      cac: 6.7.14
     devDependencies:
       '@antfu/eslint-config': 0.37.0_j4766f7ecgqbon3u7zlxn5zszu
       '@antfu/ni': 0.20.0
@@ -1138,7 +1141,6 @@ packages:
   /cac/6.7.14:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
     engines: {node: '>=8'}
-    dev: true
 
   /call-bind/1.0.2:
     resolution: {integrity: sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==}
