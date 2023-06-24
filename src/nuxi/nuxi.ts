@@ -33,12 +33,12 @@ async function main() {
   // 控制node版本
   checkEngines()
 
+  // 获取命令实例
   const cmd = await commands[command as Command]() as NuxtCommand
-
   if (args.h || args.help) {
     showHelp(cmd.meta)
   } else {
-    await cmd.invoke(args)
+    await cmd.invoke(args) // 执行命令方法
   }
 }
 

@@ -4,6 +4,7 @@ import { cyan, magenta } from 'colorette'
 const _rDefault = (r: any) => r.default || r
 const lazyImport = (path: string) => () => import(path).then(_rDefault)
 
+// 命令的集合
 export const commands = {
   dev: lazyImport('./dev'),
   build: lazyImport('./build'),
@@ -24,10 +25,12 @@ export interface NuxtCommand {
   invoke(args: Argv, options?: Record<string, any>): Promise<void> | void
 }
 
+// ts处理的构建命令方法
 export function defineNuxtCommand(command: NuxtCommand): NuxtCommand {
   return command
 }
 
+// 展示帮助信息
 export function showHelp(meta?: Partial<NuxtCommandMeta>) {
   const sections: string[] = []
   if (meta) {
